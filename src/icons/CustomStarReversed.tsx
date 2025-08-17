@@ -13,6 +13,7 @@ export default function CustomStarReversed() {
             viewBox={viewBox}
             style={{ width: '2rem', height: "auto" }}
         >
+            <title>Grey star</title>
             <rect x="200" y="40" width="60" height="60" fill="#e2e2e2" />
             <path d={starPath} fill="#fff" />
         </svg>

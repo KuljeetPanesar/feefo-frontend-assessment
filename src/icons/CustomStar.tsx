@@ -16,6 +16,7 @@ export default function CustomStar({ fill = 0 }: CustomStarProps) {
       style={{ width: '4rem', height: '4rem' }}
     >
       {/* Unfilled star */}
+      <title>Filled star</title>
       <rect x="200" y="40" width="60" height="60" fill="#fff" />
       <path
         d={starPath}
